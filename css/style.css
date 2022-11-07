@@ -23,7 +23,7 @@ html{
 }
 header{
     background: var(--dark);
-    clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 75% 90%, 0 100%);
 }
 .container{
     max-width:1152px;
@@ -61,6 +61,7 @@ header{
   .aromal{
     margin-top: 0px;
     transition: 1s;
+    
   }
   .aromal:hover{
     transform: scale(1.1);
@@ -90,7 +91,7 @@ header nav .branding{
     padding:4rem 0;
 }
 .hero .left img{
-    width:400px;
+    width:300px;
 }
 .hero .right{
     color:var(--pure);
@@ -101,7 +102,7 @@ header nav .branding{
     margin-bottom:0.5rem;
 }
 .hero .right h1{
-    font-size:4rem;
+    font-size:2rem;
     font-weight:100;
     line-height:1.2;
     margin-bottom:2rem;
@@ -146,7 +147,7 @@ section.about p{
 section.about .social{
     display:flex;
 }
-section.about .social a{
+section.about .social a {
     background:var(--dark);
     display:flex;
     align-items:center;
@@ -646,45 +647,52 @@ footer .copyright{
 
 .about-me-img{
     margin-top: 0px;
+    margin-left: 3px;
     transition: 1s;
     border-radius: 10px;
   }
   .about-me-img:hover{
     transform: scale(1.1);
   }
-  .social1{
-    /* margin-top: 0px; */
-    transition: 1s;
-  }
-  .social1:hover{
-    transform: scale(1.1);
-  }
-  .social2{
-    /* margin-top: 0px; */
-    transition: 1s;
-  }
-  .social2:hover{
-    transform: scale(1.1);
-  }
-  .social3{
-    /* margin-top: 0px; */
-    transition: 1s;
-  }
-  .social3:hover{
-    transform: scale(1.1);
-  }
-  .social4{
-    /* margin-top: 0px; */
-    transition: 1s;
-  }
-  .social4:hover{
-    transform: scale(1.1);
-  }
-  .card1{
-    /* margin-top: 0px; */
-    transition: 1s;
-  }
   .card1:hover{
     transform: scale(1.1);
   }
-  
+  .social{
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100px;
+    height:35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right:0.6rem;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+  }
+  .aro1{
+    margin-right:15px;
+  }
+  .aro1:hover{
+    transform: scale(1.1);
+  }
+
+.aro2{
+  margin-right:20px;
+}
+.aro2:hover{
+  transform: scale(1.1);
+}
+
+.aro3{
+  /* margin-right:5px; */
+}
+.aro3:hover{
+  transform: scale(1.1);
+}
